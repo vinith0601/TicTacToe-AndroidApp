@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/background"
+        android:id="@+id/ticGrid"
         android:layout_width="299dp"
         android:layout_height="353dp"
         android:background="@drawable/board"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.241">
 
         <ImageView
-            android:id="@+id/imageView32"
+            android:id="@+id/tic5"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
@@ -46,72 +46,72 @@
             app:layout_constraintVertical_bias="0.498" />
 
         <ImageView
-            android:id="@+id/imageView43"
+            android:id="@+id/tic3"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="2"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
-            app:layout_constraintEnd_toEndOf="@+id/imageView39"
+            app:layout_constraintBottom_toBottomOf="@+id/tic2"
+            app:layout_constraintEnd_toEndOf="@+id/tic6"
             app:layout_constraintHorizontal_bias="0.995"
-            app:layout_constraintStart_toEndOf="@+id/imageView32"
-            app:layout_constraintTop_toTopOf="@+id/imageView34"
+            app:layout_constraintStart_toEndOf="@+id/tic5"
+            app:layout_constraintTop_toTopOf="@+id/tic2"
             app:layout_constraintVertical_bias="0.058" />
 
         <ImageView
-            android:id="@+id/imageView42"
+            android:id="@+id/tic1"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="0"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
-            app:layout_constraintEnd_toStartOf="@+id/imageView32"
+            app:layout_constraintBottom_toBottomOf="@+id/tic2"
+            app:layout_constraintEnd_toStartOf="@+id/tic5"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/imageView37"
-            app:layout_constraintTop_toTopOf="@+id/imageView34"
+            app:layout_constraintStart_toStartOf="@+id/tic4"
+            app:layout_constraintTop_toTopOf="@+id/tic2"
             app:layout_constraintVertical_bias="0.058" />
 
         <ImageView
-            android:id="@+id/imageView41"
+            android:id="@+id/tic9"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="8"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView38"
-            app:layout_constraintEnd_toEndOf="@+id/imageView39"
+            app:layout_constraintBottom_toBottomOf="@+id/tic8"
+            app:layout_constraintEnd_toEndOf="@+id/tic6"
             app:layout_constraintHorizontal_bias="0.995"
-            app:layout_constraintStart_toEndOf="@+id/imageView32"
-            app:layout_constraintTop_toTopOf="@+id/imageView38"
+            app:layout_constraintStart_toEndOf="@+id/tic5"
+            app:layout_constraintTop_toTopOf="@+id/tic8"
             app:layout_constraintVertical_bias="0.941" />
 
         <ImageView
-            android:id="@+id/imageView40"
+            android:id="@+id/tic7"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="6"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView38"
-            app:layout_constraintEnd_toEndOf="@+id/imageView37"
+            app:layout_constraintBottom_toBottomOf="@+id/tic8"
+            app:layout_constraintEnd_toEndOf="@+id/tic4"
             app:layout_constraintHorizontal_bias="0.009"
-            app:layout_constraintStart_toStartOf="@+id/imageView37"
-            app:layout_constraintTop_toTopOf="@+id/imageView38"
+            app:layout_constraintStart_toStartOf="@+id/tic4"
+            app:layout_constraintTop_toTopOf="@+id/tic8"
             app:layout_constraintVertical_bias="0.941" />
 
         <ImageView
-            android:id="@+id/imageView39"
+            android:id="@+id/tic6"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="5"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+            app:layout_constraintBottom_toBottomOf="@+id/tic5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.97"
-            app:layout_constraintStart_toEndOf="@+id/imageView32"
-            app:layout_constraintTop_toTopOf="@+id/imageView32"
+            app:layout_constraintStart_toEndOf="@+id/tic5"
+            app:layout_constraintTop_toTopOf="@+id/tic5"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView38"
+            android:id="@+id/tic8"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
@@ -124,29 +124,62 @@
             app:layout_constraintVertical_bias="0.941" />
 
         <ImageView
-            android:id="@+id/imageView34"
+            android:id="@+id/tic2"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="1"
-            app:layout_constraintBottom_toTopOf="@+id/imageView32"
-            app:layout_constraintEnd_toEndOf="@+id/imageView32"
+            app:layout_constraintBottom_toTopOf="@+id/tic5"
+            app:layout_constraintEnd_toEndOf="@+id/tic5"
             app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toEndOf="@+id/imageView37"
+            app:layout_constraintStart_toEndOf="@+id/tic4"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.285" />
 
         <ImageView
-            android:id="@+id/imageView37"
+            android:id="@+id/tic4"
             android:layout_width="96dp"
             android:layout_height="80dp"
             android:onClick="dropIn"
             android:tag="3"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-            app:layout_constraintEnd_toStartOf="@+id/imageView32"
+            app:layout_constraintBottom_toBottomOf="@+id/tic5"
+            app:layout_constraintEnd_toStartOf="@+id/tic5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView32" />
+            app:layout_constraintTop_toTopOf="@+id/tic5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/WinnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:fontFamily="@font/acme"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticGrid"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:alpha="0"
+        android:onClick="clear"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WinnerText"
+        app:layout_constraintVertical_bias="0.933" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
